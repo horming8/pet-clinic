@@ -1,15 +1,15 @@
-package demo.springframework.petclinicweb.controller;
+package demo.springframework.petclinic.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/vet")
+@RequestMapping("/owner")
 @Controller
-public class VetController {
+public class OwnerController {
 
     @GetMapping(value = { "", "/", "/index", "/index.html" })
     public String index() {
-        return "vet/index";
+        return "owner/index";
     }
 }

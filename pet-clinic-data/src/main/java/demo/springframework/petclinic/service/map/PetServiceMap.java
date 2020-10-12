@@ -1,10 +1,13 @@
-package demo.springframework.petclinicdata.service.map;
+package demo.springframework.petclinic.service.map;
 
 import java.util.Set;
 
-import demo.springframework.petclinicdata.model.Pet;
-import demo.springframework.petclinicdata.service.PetService;
+import org.springframework.stereotype.Service;
 
+import demo.springframework.petclinic.model.Pet;
+import demo.springframework.petclinic.service.PetService;
+
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override

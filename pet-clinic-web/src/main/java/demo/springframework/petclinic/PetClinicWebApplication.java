@@ -1,13 +1,13 @@
-package demo.springframework.petclinicdata;
+package demo.springframework.petclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PetClinicDataApplication {
+public class PetClinicWebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PetClinicDataApplication.class, args);
+		SpringApplication.run(PetClinicWebApplication.class, args);
 	}
 
 }

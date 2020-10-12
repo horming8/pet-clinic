@@ -1,4 +1,4 @@
-package demo.springframework.petclinicdata.model;
+package demo.springframework.petclinic.model;
 
 import java.time.LocalDate;
 
@@ -30,5 +30,5 @@ public class Pet extends BaseEntity {
 
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
-    }    
+    }
 }
