@@ -28,34 +28,24 @@ public class DataLoader implements CommandLineRunner {
 
         log.info("run()");
 
-        Long oid = 0L;
         Owner owner1 = new Owner();
-        owner1.setId(++oid);
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
-
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner2.setId(++oid);
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
-
         ownerService.save(owner2);
 
-        Long vid = 0L;
         Vet vet1 = new Vet();
-        vet1.setId(++vid);
         vet1.setFirstName("Sam");
         vet1.setLastName("Axe");
-
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet2.setId(++vid);
         vet2.setFirstName("Jessie");
         vet2.setLastName("Porter");
-
         vetService.save(vet2);
 
     }
