@@ -1,10 +1,10 @@
-package demo.springframework.petclinicweb;
+package demo.springframework.petclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PetClinicWebApplicationTests {
+class PetClinicApplicationTests {
 
 	@Test
 	void contextLoads() {
